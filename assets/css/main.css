@@ -175,7 +175,6 @@ input, select, textarea {
 	}
 
 		a:hover {
-			//color: #E27689;
 			color: #21478b;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
@@ -1758,7 +1757,6 @@ input, select, textarea {
 		.image.avatar48 {
 			width: 48px;
 			height: 48px;
-			//background: #f00;
 		}
 
 			.image.avatar48 img {
@@ -2170,7 +2168,6 @@ input, select, textarea {
 				}
 
 					#nav ul li a.active span:before {
-						//color: #e27689;
 						color: #21478b;
 					}
 
@@ -2250,8 +2247,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				//background-image: url("../../images/banner.jpg");
-				background-image: url("https://images.unsplash.com/photo-1595601332599-557ac269a952?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80");}
+				background-image: url("../../images/background.jpg");}
 
 			#main > section.two {
 				background-color: #f5fafa;
@@ -2681,7 +2677,6 @@ input, select, textarea {
 
 	.skills-grid__title {
 		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-		//font-size: 16px;
 		color: white;
 		text-shadow: 0px 0px 5px black;
 	}
