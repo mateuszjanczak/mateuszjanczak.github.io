@@ -2636,14 +2636,47 @@ input, select, textarea {
 	}
 
 	.skills-grid__icon svg {
-		width: 35px;
-		height: 35px;
+		width: 30px;
+		height: 30px;
 	}
 
 	.skills-grid__title {
-		font-size: 16px;
+		font-size: 12px;
 	}
 
+	@media (min-width: 360px) {
+		.skills-grid {
+			grid-template-columns: repeat(3, 1fr);
+		}
+
+		.skills-grid__icon svg {
+			width: 35px;
+			height: 35px;
+		}
+
+		.skills-grid__title {
+			font-size: 16px;
+		}
+	}
+
+	@media (min-width: 720px) {
+		.skills-grid {
+			grid-template-columns: repeat(4, 1fr);
+		}
+
+		.skills-grid__icon svg {
+			width: 50px;
+			height: 50px;
+		}
+
+		.skills-grid__icon:nth-last-child(2) {
+			display: none;
+		}
+
+		.skills-grid__title {
+			font-size: 26px;
+		}
+	}
 
 	@media (min-width: 720px) {
 		.skills-grid {
@@ -2672,7 +2705,7 @@ input, select, textarea {
 	}
 
 	.skills-grid__icon {
-		padding: 1rem;
+		padding: 1rem 0.5rem;
 	}
 
 	.skills-grid__title {
@@ -2686,10 +2719,12 @@ input, select, textarea {
 	}
 
 	.actions {
-		margin-top: 1rem;
+		display: grid;
+		margin: 1rem 2rem;
 	}
 
 	.actions a {
 		font-size: 16px;
+		margin-bottom: 1rem;
 		padding: 0.25rem 1rem;
 	}
