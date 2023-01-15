@@ -2672,7 +2672,7 @@ button:active,
     }
 
     .skills-grid__title {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
@@ -2687,22 +2687,7 @@ button:active,
     }
 
     .skills-grid__title {
-        font-size: 26px;
-    }
-}
-
-@media (min-width: 720px) {
-    .skills-grid {
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    .skills-grid__element svg {
-        width: 50px;
-        height: 50px;
-    }
-
-    .skills-grid__title {
-        font-size: 26px;
+        font-size: 18px;
     }
 }
 
@@ -2714,11 +2699,10 @@ button:active,
 }
 
 .skills-grid__element {
-    padding: 1rem 0.5rem;
+    padding: 1rem 0.5rem 0.5rem;
 }
 
 .skills-grid__title {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: white;
     text-shadow: 0px 0px 5px black;
 }
